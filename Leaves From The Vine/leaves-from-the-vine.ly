@@ -2,19 +2,20 @@
     title = "Leaves From The Vine"
 }
 notes = {
-    % \time 5/4
+    \time 3/4
     \tempo 4 = 150
     \relative c' {
         d2 d4 c8 b1
         d4 d c b2
         % R1
-        g2 b4 b4 c4 b4 a1
+        g2 b4 b4 c4 b8 a1
         b4 b4 a4 g4 g1
-        d'8 d2 d4 c8 b2
+        d'8 d4 d2 c8 b2
         d4 d c b1
-        b2 b8 a4 g1
+        b2 b4 a4 g1
         b4 b4 a4 g1
     }
+    \bar "|."
 }
 
 poem_lyrics = \lyricmode {
