@@ -3,16 +3,16 @@
 }
 notes = {
     \time 3/4
-    \tempo 4 = 150
+    \tempo 4 = 140
     \relative c' {
-        d2 d4 c8 b2.
+        d2 d4 c8 b2~ b8
         d4 d c b2
-        g2 b4 b4 c4. b4 a2.
-        b4 b4 a4 g4 g2.
-        d'8 d4 d4. c8 b2
-        d4 d c b2.
-        b2 b4 a4 g2.
-        b4 b4 a4 g2.
+        g2 b4 b4 c4 b4 a2
+        b4 b4 a4 g4 g2~ g2.
+        d'8 d4~ d8 d4 c4 b2
+        d4 d c b2~ b2.
+        b2 b4 a4 g2
+        b4 b4 a4 g2
     }
     \bar "|."
 }
