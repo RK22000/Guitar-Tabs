@@ -29,7 +29,7 @@ poem_lyrics = \lyricmode {
 }
 
 \score {
-    <<
+    \new StaffGroup<<
         <<
             \new Voice = "melody" { \notes }
             \new Lyrics \with {
