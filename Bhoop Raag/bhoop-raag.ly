@@ -13,7 +13,7 @@
 % bhoop raag notes
 
 part_a = {
-    a4 c a g e d c d e e d e g a
+    a4 c a g e d c d e2 e4 d e g a
 }
 part_b = {
     e e g a c c c d c
@@ -21,7 +21,7 @@ part_b = {
 part_c = {
     e d c e d c a g c a g e d c
 }
-notes = \relative c'' {
+notes = \relative c' {
     \tempo 4 = 100
     \part_a \bar ".|"
     \part_a \bar ".|"
